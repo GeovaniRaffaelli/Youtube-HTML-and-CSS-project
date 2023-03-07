@@ -1,0 +1,42 @@
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 15px;
+}
+
+.video-author {
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.video-description {
+  margin-top: 0;
+  color: #606060;
+  font-size: 15px;
+  width: 300px;
+  line-height: 22px;
+  margin-bottom: 80px;
+}
+
+.shop {
+  color: white;
+  background-color: #e34140;
+  padding: 15px 80px;
+  font-size: 14px;
+  width: 500px;
+}

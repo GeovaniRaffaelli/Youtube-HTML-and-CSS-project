@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Dogs</title>
+    
+    <style>
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      p {
+        font-family: Roboto;
+        margin: 0;
+        margin-bottom: 6px;
+        margin-left:6px;
+      }  
+    
+      .profile-preview{
+        border-style: solid;
+        border-color: grey;
+        box-shadow: 1px 2px rgba(0, 0, 0, 0.192);
+        border-width: 1px;
+        display: inline-block;
+      }
+
+      .profile-pic {
+        object-fit: cover;
+        object-position: center;
+        height: 150px;
+        width: 150px;
+
+      }
+
+      .name {
+        font-weight: bold;
+      }
+
+      .mutual-friends {
+        font-size: 15px;
+        color: rgb(99, 98, 98);
+      }
+
+      .add {
+        margin-left:4px;
+        border:none;
+        border-radius: 3px;
+        background-color: rgb(66, 66, 255);
+        color: white;
+        padding: 6px;
+      }
+
+      .add:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-preview">
+      <img class="profile-pic" src="tutorial/dog1.jpg" alt="Dog Image">
+      <p class="name">Oliver</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+
+    <div class="profile-preview">
+      <img class="profile-pic" src="tutorial/dog2.jpg" alt="Dog Image">
+      <p class="name">Mimi</p>
+      <p class="mutual-friends">3 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+
+    <div class="profile-preview">
+      <img class="profile-pic" src="tutorial/dog3.jpg" alt="Dog Image">
+      <p class="name">Rex</p>
+      <p class="mutual-friends">4 mutual friends</p>
+      <button class="add">Add Friend</button>
+    </div>
+  </body>
+</html>
